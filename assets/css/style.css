@@ -1,0 +1,19 @@
+#name {
+    background-color: white;
+    border-radius: 10pt;
+    color: black;
+    font-family: 'Sacramento', cursive;
+    font-size: 3vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav-color {
+    background-color: #4aaaa5;
+}
+
+.georgia-font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
