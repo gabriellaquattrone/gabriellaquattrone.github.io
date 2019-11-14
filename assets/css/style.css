@@ -14,6 +14,26 @@
     background-color: #4aaaa5;
 }
 
+#about-me {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+#info {
+    margin-top: 9vh;
+}
 .georgia-font {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link-color {
+    color: #4aaaa5;
+}
+.cursive-font {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+}
+
+.text-center {
+    text-align: center;
 }
