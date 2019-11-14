@@ -10,6 +10,10 @@
     text-align: center;
 }
 
+#name:hover {
+    cursor: default;
+}
+
 #nav-color {
     background-color: #4aaaa5;
 }
@@ -22,8 +26,34 @@
 #info {
     margin-top: 9vh;
 }
+
+.page-footer {
+    background-color: #4aaaa5;
+}
 .georgia-font {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Source for sticky footer using Ryan Fait's solution: https://codeconvey.com/simple-css-sticky-footer/ */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    min-height: 100%;
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+}
+.footer, .push {
+    height: 50px;
+}
+.footer {
+    background-color: #4aaaa5;
+    padding-top: 2vh;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 
 .link-color {
@@ -37,3 +67,4 @@
 .text-center {
     text-align: center;
 }
+
