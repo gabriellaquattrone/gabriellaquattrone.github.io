@@ -1,12 +1,14 @@
 #name {
     background-color: white;
+    /* height: 4vh; */
     border-radius: 10pt;
     color: black;
     font-family: 'Sacramento', cursive;
-    font-size: 3vh;
+    font-size: 16px;
     padding-left: 1vw;
     padding-right: 1vw;
-    margin: 0 auto;
+    /* margin-top: 0.2vh; */
+    /* margin-left: 0.5vw; */
     text-align: center;
 }
 
@@ -67,4 +69,15 @@ html, body {
 .text-center {
     text-align: center;
 }
-
+@media screen and (max-width: 600px){
+    #name {
+        background-color: transparent;
+        border-radius: 10pt;
+        color: black;
+        font-family: 'Sacramento', cursive;
+        font-size: 16px;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        text-align: center;
+    }
+}
